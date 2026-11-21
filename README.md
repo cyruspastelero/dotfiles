@@ -41,13 +41,13 @@
 **Option 1** — One-liner (just paste this into your terminal):
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Cyvid7-Darus10/dotfiles/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/cyruspastelero/dotfiles/main/install.sh)"
 ```
 
 **Option 2** — Clone and run:
 
 ```bash
-git clone https://github.com/Cyvid7-Darus10/dotfiles.git ~/dotfiles
+git clone https://github.com/cyruspastelero/dotfiles.git ~/dotfiles
 cd ~/dotfiles && ./install.sh
 ```
 

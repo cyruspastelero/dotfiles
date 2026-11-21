@@ -12,7 +12,7 @@ Set CursorBlink false
 Sleep 500ms
 
 # Show the clone + install command
-Type "git clone https://github.com/Cyvid7-Darus10/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./install.sh"
+Type "git clone https://github.com/cyruspastelero/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./install.sh"
 Enter
 Sleep 2s
 
@@ -27,7 +27,7 @@ Type "echo -e '\033[0;36m╔═════════════════�
 Enter
 Type "echo -e '\033[0;36m║       Dotfiles Installation            ║\033[0m'"
 Enter
-Type "echo -e '\033[0;36m║       github.com/Cyvid7-Darus10       ║\033[0m'"
+Type "echo -e '\033[0;36m║       github.com/cyruspastelero       ║\033[0m'"
 Enter
 Type "echo -e '\033[0;36m╚════════════════════════════════════════╝\033[0m'"
 Enter

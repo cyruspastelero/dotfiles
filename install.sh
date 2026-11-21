@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ─── Support one-liner remote install ────────────────────
-# bash -c "$(curl -fsSL https://raw.githubusercontent.com/Cyvid7-Darus10/dotfiles/main/install.sh)"
+# bash -c "$(curl -fsSL https://raw.githubusercontent.com/cyruspastelero/dotfiles/main/install.sh)"
 if [[ ! -f "$(dirname "${BASH_SOURCE[0]:-./install.sh}")/Brewfile" ]]; then
   if [[ -d "$HOME/dotfiles" ]]; then
     echo "Updating existing dotfiles..."
@@ -10,7 +10,7 @@ if [[ ! -f "$(dirname "${BASH_SOURCE[0]:-./install.sh}")/Brewfile" ]]; then
     git pull
   else
     echo "Cloning dotfiles..."
-    git clone https://github.com/Cyvid7-Darus10/dotfiles.git "$HOME/dotfiles"
+    git clone https://github.com/cyruspastelero/dotfiles.git "$HOME/dotfiles"
     cd "$HOME/dotfiles"
   fi
   exec bash ./install.sh "$@"
@@ -299,7 +299,7 @@ main() {
   echo ""
   echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
   echo -e "${CYAN}║       Dotfiles Installation            ║${NC}"
-  echo -e "${CYAN}║       github.com/Cyvid7-Darus10       ║${NC}"
+  echo -e "${CYAN}║       github.com/cyruspastelero       ║${NC}"
   echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
 
   install_homebrew
